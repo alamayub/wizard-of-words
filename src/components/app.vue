@@ -48,20 +48,8 @@
       <f7-page login-screen>
         <f7-login-screen-title>Login</f7-login-screen-title>
         <f7-list form>
-          <f7-list-input
-            type="text"
-            name="username"
-            placeholder="Your username"
-            :value="username"
-            @input="username = $event.target.value"
-          ></f7-list-input>
-          <f7-list-input
-            type="password"
-            name="password"
-            placeholder="Your password"
-            :value="password"
-            @input="password = $event.target.value"
-          ></f7-list-input>
+          <f7-list-input type="text" name="username" placeholder="Your username" :value="username" @input="username = $event.target.value"></f7-list-input>
+          <f7-list-input type="password" name="password" placeholder="Your password" :value="password" @input="password = $event.target.value"></f7-list-input>
         </f7-list>
         <f7-list>
           <f7-list-button title="Sign In" @click="alertLoginData"></f7-list-button>

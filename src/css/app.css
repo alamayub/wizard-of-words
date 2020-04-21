@@ -4,17 +4,16 @@
 }
 
 /* Your app custom styles here */
-/*HomePage*/
 .home {
   background-color: rgba(192,192,192, .2);
 }
 
-.home .left img {
+.left img {
   height: 45px;
   width: 45px;
   border-radius: 50%;
 }
-.home .card {
+.card {
   margin: 10px 0px;
   border-radius: 0px;
 }
